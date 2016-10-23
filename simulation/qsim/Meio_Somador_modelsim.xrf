@@ -1,9 +1,0 @@
-vendor_name = ModelSim
-source_file = 1, Z:/MicroComputador/Meio_Somador.bdf
-source_file = 1, Z:/MicroComputador/tb_Meio_Somador.vwf
-source_file = 1, Z:/MicroComputador/db/Meio_Somador.cbx.xml
-design_name = Meio_Somador
-instance = comp, \c~output , c~output, Meio_Somador, 1
-instance = comp, \s~output , s~output, Meio_Somador, 1
-instance = comp, \x~input , x~input, Meio_Somador, 1
-instance = comp, \y~input , y~input, Meio_Somador, 1
