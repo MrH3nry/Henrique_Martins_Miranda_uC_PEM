@@ -1,0 +1,38 @@
+# do Somado_Completo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 08:54:56 on Oct 23,2016
+# vlog -work work Somado_Completo.vo 
+# -- Compiling module Somado_Completo
+# 
+# Top level modules:
+# 	Somado_Completo
+# End time: 08:54:57 on Oct 23,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 08:54:57 on Oct 23,2016
+# vlog -work work tb_Somador_Completo.vwf.vt 
+# -- Compiling module Somado_Completo_vlg_vec_tst
+# 
+# Top level modules:
+# 	Somado_Completo_vlg_vec_tst
+# End time: 08:54:57 on Oct 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Somado_Completo_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 08:54:57 on Oct 23,2016
+# Loading work.Somado_Completo_vlg_vec_tst
+# Loading work.Somado_Completo
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 10.4d Compiler 2015.12 Dec 30 2015
+# 
+# Loading instances from Somado_Completo_v.sdo
+# Loading timing data from Somado_Completo_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Somado_Completo_vlg_vec_tst File: tb_Somador_Completo.vwf.vt
+# ** Note: $finish    : tb_Somador_Completo.vwf.vt(51)
+#    Time: 400 ns  Iteration: 0  Instance: /Somado_Completo_vlg_vec_tst
+# End time: 08:54:57 on Oct 23,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

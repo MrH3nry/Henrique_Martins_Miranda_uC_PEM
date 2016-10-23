@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/MicroComputador/simulation/qsim
+vMeio_Somador
+Z1 !s110 1477222619
+!i10b 1
+!s100 53Bk@I^_iW;?7o_SP;2B^1
+I3YQRg3]m06i@YCgO>88YL1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1477222616
+8Meio_Somador.vo
+FMeio_Somador.vo
+Z3 L0 32
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z5 !s108 1477222619.000000
+!s107 Meio_Somador.vo|
+!s90 -work|work|Meio_Somador.vo|
+!i113 1
+Z6 o-work work
+n@meio_@somador
+vMeio_Somador_vlg_vec_tst
+R1
+!i10b 1
+!s100 =Y8XnbDl@OC>hTa;X=SSz1
+I>HhMN=]i5AiGGV:VmJ>j12
+R2
+R0
+w1477222615
+8tb_Meio_Somador.vwf.vt
+Ftb_Meio_Somador.vwf.vt
+Z7 L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 tb_Meio_Somador.vwf.vt|
+!s90 -work|work|tb_Meio_Somador.vwf.vt|
+!i113 1
+R6
+n@meio_@somador_vlg_vec_tst
+vSomado_Completo
+!s110 1477223696
+!i10b 1
+!s100 RA13aJSG=OKa>aCP`7Ioj1
+I3D]3:PZI;oX6LBV9GLFZB0
+R2
+R0
+w1477223695
+8Somado_Completo.vo
+FSomado_Completo.vo
+R3
+R4
+r1
+!s85 0
+31
+!s108 1477223696.000000
+!s107 Somado_Completo.vo|
+!s90 -work|work|Somado_Completo.vo|
+!i113 1
+R6
+n@somado_@completo
+vSomado_Completo_vlg_vec_tst
+!s110 1477223697
+!i10b 1
+!s100 d[ha8<F^56g2^Gd3FzeMR2
+IS;SPdEM7;lOE?JdBPng_M3
+R2
+R0
+w1477223693
+8tb_Somador_Completo.vwf.vt
+Ftb_Somador_Completo.vwf.vt
+R7
+R4
+r1
+!s85 0
+31
+!s108 1477223697.000000
+!s107 tb_Somador_Completo.vwf.vt|
+!s90 -work|work|tb_Somador_Completo.vwf.vt|
+!i113 1
+R6
+n@somado_@completo_vlg_vec_tst

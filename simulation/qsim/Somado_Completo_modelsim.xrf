@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, Z:/MicroComputador/Somado_Completo.bdf
+source_file = 1, Z:/MicroComputador/tb_Somador_Completo.vwf
+source_file = 1, Z:/MicroComputador/meio_somador.bdf
+design_name = Somado_Completo
+instance = comp, \s~output , s~output, Somado_Completo, 1
+instance = comp, \cout~output , cout~output, Somado_Completo, 1
+instance = comp, \cin~input , cin~input, Somado_Completo, 1
+instance = comp, \y~input , y~input, Somado_Completo, 1
+instance = comp, \x~input , x~input, Somado_Completo, 1
+instance = comp, \inst1|inst2~0 , inst1|inst2~0, Somado_Completo, 1
+instance = comp, \inst2~0 , inst2~0, Somado_Completo, 1
