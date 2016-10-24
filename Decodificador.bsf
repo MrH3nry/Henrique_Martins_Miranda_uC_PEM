@@ -22,7 +22,7 @@ agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 136 144)
-	(text "Descodificador" (rect 5 0 137 16)(font "Arial" (font_size 8)))
+	(text "Decodificador" (rect 5 0 127 16)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 110 41 124)(font "Arial" ))
 	(port
 		(pt 0 32)

@@ -24,7 +24,7 @@ agreement for further details.
 	(input)
 	(rect 144 -200 160 -32)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "/7" (rect 2 5 16 22)(font "Arial" )(vertical))
+	(text "/7" (rect 2 5 16 21)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -41,7 +41,7 @@ agreement for further details.
 	(input)
 	(rect 192 -200 208 -32)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "/6" (rect 2 5 16 22)(font "Arial" )(vertical))
+	(text "/6" (rect 2 5 16 21)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -58,7 +58,7 @@ agreement for further details.
 	(input)
 	(rect 240 -200 256 -32)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "/5" (rect 2 5 16 22)(font "Arial" )(vertical))
+	(text "/5" (rect 2 5 16 21)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -75,7 +75,7 @@ agreement for further details.
 	(input)
 	(rect 288 -200 304 -32)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
-	(text "/4" (rect 2 5 16 22)(font "Arial" )(vertical))
+	(text "/4" (rect 2 5 16 21)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
