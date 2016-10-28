@@ -19,13 +19,14 @@
 #
 # Quartus Prime
 # Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-# Date created = 11:26:55  October 24, 2016
+# Date created = 18:47:50  October 27, 2016
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "16.0"
-DATE = "11:26:55  October 24, 2016"
+DATE = "18:47:50  October 27, 2016"
 
 # Revisions
 
+PROJECT_REVISION = "Decodificador"
 PROJECT_REVISION = "Descodificador"
