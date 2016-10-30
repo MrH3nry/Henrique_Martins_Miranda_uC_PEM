@@ -24,7 +24,7 @@ agreement for further details.
 	(input)
 	(rect 504 24 672 40)
 	(text "INPUT" (rect 125 5 166 16)(font "Arial" (font_size 6)))
-	(text "/7" (rect 5 2 21 16)(font "Arial" ))
+	(text "B7" (rect 5 2 22 16)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 4)(pt 109 4))
@@ -41,7 +41,7 @@ agreement for further details.
 	(input)
 	(rect 504 72 672 88)
 	(text "INPUT" (rect 125 5 166 16)(font "Arial" (font_size 6)))
-	(text "/6" (rect 5 2 21 16)(font "Arial" ))
+	(text "B8" (rect 5 2 22 16)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 4)(pt 109 4))
@@ -58,7 +58,7 @@ agreement for further details.
 	(input)
 	(rect 504 120 672 136)
 	(text "INPUT" (rect 125 5 166 16)(font "Arial" (font_size 6)))
-	(text "/5" (rect 5 2 21 16)(font "Arial" ))
+	(text "B5" (rect 5 2 22 16)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 4)(pt 109 4))
@@ -75,7 +75,7 @@ agreement for further details.
 	(input)
 	(rect 504 168 672 184)
 	(text "INPUT" (rect 125 5 166 16)(font "Arial" (font_size 6)))
-	(text "/4" (rect 5 2 21 16)(font "Arial" ))
+	(text "B4" (rect 5 2 22 16)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 4)(pt 109 4))
@@ -160,7 +160,7 @@ agreement for further details.
 	(output)
 	(rect 1384 320 1400 496)
 	(text "OUTPUT" (rect 0 1 11 50)(font "Arial" (font_size 6))(vertical))
-	(text "HLT-B" (rect 0 90 14 131)(font "Arial" )(vertical))
+	(text "HLTB" (rect 1 89 15 122)(font "Arial" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
