@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 40 800 208 816)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "RESET" (rect 5 0 47 14)(font "Arial" ))
+	(text "RESET" (rect 5 0 46 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -56,7 +56,7 @@ agreement for further details.
 	(input)
 	(rect 16 352 184 368)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "S4" (rect 5 0 22 14)(font "Arial" ))
+	(text "S4" (rect 5 0 21 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -658,11 +658,6 @@ agreement for further details.
 	(pt 232 576)
 )
 (connector
-	(pt 456 528)
-	(pt 552 528)
-	(bus)
-)
-(connector
 	(pt 208 704)
 	(pt 216 704)
 )
@@ -859,19 +854,9 @@ agreement for further details.
 	(pt 232 376)
 )
 (connector
-	(pt 552 312)
-	(pt 552 368)
-	(bus)
-)
-(connector
 	(text "S4" (rect 242 344 258 358)(font "Arial" ))
 	(pt 184 360)
 	(pt 272 360)
-)
-(connector
-	(pt 552 136)
-	(pt 424 136)
-	(bus)
 )
 (connector
 	(text "CP" (rect 242 120 258 134)(font "Arial" ))
@@ -894,22 +879,76 @@ agreement for further details.
 	(bus)
 )
 (connector
+	(text "L1B" (rect 242 544 266 558)(font "Arial" ))
+	(pt 272 560)
+	(pt 232 560)
+)
+(connector
+	(text "E1B" (rect 242 512 266 526)(font "Arial" ))
+	(pt 272 528)
+	(pt 232 528)
+)
+(connector
 	(pt 552 136)
 	(pt 552 144)
 	(bus)
 )
 (connector
-	(pt 248 464)
-	(pt 248 392)
+	(pt 552 312)
+	(pt 552 368)
+	(bus)
+)
+(connector
+	(text "W[3..0]" (rect 434 120 491 134)(font "Arial" ))
+	(pt 552 136)
+	(pt 424 136)
+	(bus)
+)
+(connector
+	(text "W[3..0]" (rect 466 512 523 526)(font "Arial" ))
+	(pt 456 528)
+	(pt 552 528)
+	(bus)
+)
+(connector
+	(pt 272 312)
+	(pt 264 312)
+	(bus)
+)
+(connector
+	(pt 264 256)
+	(pt 264 312)
+	(bus)
+)
+(connector
+	(text "W[3..0]" (rect 258 240 315 254)(font "Arial" ))
+	(pt 552 256)
+	(pt 264 256)
+	(bus)
+)
+(connector
+	(pt 552 144)
+	(pt 552 256)
+	(bus)
+)
+(connector
+	(text "W[7..0]" (rect 536 237 550 294)(font "Arial" )(vertical))
+	(pt 552 256)
+	(pt 552 312)
+	(bus)
+)
+(connector
+	(pt 264 464)
+	(pt 264 392)
 	(bus)
 )
 (connector
 	(pt 272 392)
-	(pt 248 392)
+	(pt 264 392)
 	(bus)
 )
 (connector
-	(pt 248 464)
+	(pt 264 464)
 	(pt 552 464)
 	(bus)
 )
@@ -918,36 +957,6 @@ agreement for further details.
 	(pt 912 464)
 	(bus)
 )
-(connector
-	(pt 552 264)
-	(pt 248 264)
-	(bus)
-)
-(connector
-	(pt 248 264)
-	(pt 248 312)
-	(bus)
-)
-(connector
-	(pt 272 312)
-	(pt 248 312)
-	(bus)
-)
-(connector
-	(pt 552 144)
-	(pt 552 264)
-	(bus)
-)
-(connector
-	(pt 552 264)
-	(pt 552 312)
-	(bus)
-)
-(connector
-	(text "L1B" (rect 242 544 266 558)(font "Arial" ))
-	(pt 272 560)
-	(pt 232 560)
-)
 (junction (pt 552 368))
 (junction (pt 552 144))
 (junction (pt 552 104))
@@ -955,8 +964,8 @@ agreement for further details.
 (junction (pt 552 136))
 (junction (pt 552 312))
 (junction (pt 552 488))
-(junction (pt 552 264))
 (junction (pt 552 464))
 (junction (pt 552 528))
 (junction (pt 216 704))
 (junction (pt 216 808))
+(junction (pt 552 256))

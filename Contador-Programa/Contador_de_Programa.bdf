@@ -20,6 +20,9 @@ authorized distributors.  Please refer to the applicable
 agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(properties
+	(page_setup "orientation\n1\npaper_size\n0\npaper_source\n12\nmargin\n0.039:0.039:0.039:0.039\n")
+)
 (pin
 	(input)
 	(rect 944 280 1112 296)
@@ -75,7 +78,7 @@ agreement for further details.
 	(input)
 	(rect 192 248 360 264)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "CLRB" (rect 5 0 39 14)(font "Arial" ))
+	(text "CLRB" (rect 5 0 38 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -89,7 +92,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 568 480 584 656)
+	(rect 584 432 600 608)
 	(text "OUTPUT" (rect 5 1 16 50)(font "Arial" (font_size 6))(vertical))
 	(text "Q[3..0]" (rect 2 90 16 147)(font "Arial" )(vertical))
 	(pt 8 0)
@@ -806,6 +809,11 @@ agreement for further details.
 (connector
 	(pt 456 160)
 	(pt 568 160)
+)
+(connector
+	(pt 592 432)
+	(pt 592 408)
+	(bus)
 )
 (junction (pt 576 288))
 (junction (pt 704 288))
