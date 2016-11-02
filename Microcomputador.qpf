@@ -19,13 +19,13 @@
 #
 # Quartus Prime
 # Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-# Date created = 13:27:53  October 24, 2016
+# Date created = 12:59:28  November 02, 2016
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "16.0"
-DATE = "13:27:53  October 24, 2016"
+DATE = "12:59:28  November 02, 2016"
 
 # Revisions
 
-PROJECT_REVISION = "Gerador_de_Clock_Reset"
+PROJECT_REVISION = "Microcomputador"

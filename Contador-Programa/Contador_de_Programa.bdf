@@ -72,6 +72,22 @@ agreement for further details.
 	(text "VCC" (rect 16 -2 40 9)(font "Arial" (font_size 6)))
 )
 (pin
+	(input)
+	(rect 192 248 360 264)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "CLRB" (rect 5 0 39 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
 	(rect 568 480 584 656)
 	(text "OUTPUT" (rect 5 1 16 50)(font "Arial" (font_size 6))(vertical))
@@ -478,6 +494,23 @@ agreement for further details.
 	)
 	(rotate180)
 )
+(symbol
+	(rect 352 160 384 192)
+	(text "GND" (rect 8 16 32 27)(font "Arial" (font_size 6)))
+	(text "inst9" (rect 3 21 44 35)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 14)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 14)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 408 304)
 	(pt 408 192)
@@ -710,6 +743,70 @@ agreement for further details.
 	(pt 816 288)
 	(pt 944 288)
 )
+(connector
+	(pt 456 248)
+	(pt 456 256)
+)
+(connector
+	(pt 568 248)
+	(pt 568 256)
+)
+(connector
+	(pt 680 248)
+	(pt 680 256)
+)
+(connector
+	(pt 792 248)
+	(pt 792 256)
+)
+(connector
+	(pt 568 256)
+	(pt 680 256)
+)
+(connector
+	(pt 680 256)
+	(pt 792 256)
+)
+(connector
+	(pt 456 168)
+	(pt 456 160)
+)
+(connector
+	(pt 568 168)
+	(pt 568 160)
+)
+(connector
+	(pt 680 168)
+	(pt 680 160)
+)
+(connector
+	(pt 792 168)
+	(pt 792 160)
+)
+(connector
+	(pt 568 160)
+	(pt 680 160)
+)
+(connector
+	(pt 680 160)
+	(pt 792 160)
+)
+(connector
+	(pt 456 256)
+	(pt 568 256)
+)
+(connector
+	(pt 360 256)
+	(pt 456 256)
+)
+(connector
+	(pt 368 160)
+	(pt 456 160)
+)
+(connector
+	(pt 456 160)
+	(pt 568 160)
+)
 (junction (pt 576 288))
 (junction (pt 704 288))
 (junction (pt 816 288))
@@ -723,3 +820,9 @@ agreement for further details.
 (junction (pt 728 128))
 (junction (pt 840 128))
 (junction (pt 856 208))
+(junction (pt 456 256))
+(junction (pt 568 256))
+(junction (pt 680 256))
+(junction (pt 568 160))
+(junction (pt 680 160))
+(junction (pt 456 160))
