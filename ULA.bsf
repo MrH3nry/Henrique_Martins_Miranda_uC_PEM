@@ -34,15 +34,15 @@ agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "LA-B" (rect 0 0 37 16)(font "Arial" (font_size 8)))
-		(text "LA-B" (rect 21 43 58 59)(font "Arial" (font_size 8)))
+		(text "LAB" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "LAB" (rect 21 43 49 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "LB-B" (rect 0 0 37 16)(font "Arial" (font_size 8)))
-		(text "LB-B" (rect 21 59 58 75)(font "Arial" (font_size 8)))
+		(text "LBB" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "LBB" (rect 21 59 49 75)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port

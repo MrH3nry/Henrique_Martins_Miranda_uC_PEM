@@ -27,8 +27,8 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "E1-B" (rect 0 0 37 16)(font "Arial" (font_size 8)))
-		(text "E1-B" (rect 21 27 58 43)(font "Arial" (font_size 8)))
+		(text "E1B" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "E1B" (rect 21 27 49 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
@@ -90,29 +90,29 @@ agreement for further details.
 	(port
 		(pt 136 96)
 		(output)
-		(text "/4" (rect 0 0 18 16)(font "Arial" (font_size 8)))
-		(text "/4" (rect 97 91 115 107)(font "Arial" (font_size 8)))
+		(text "B4" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B4" (rect 97 91 115 107)(font "Arial" (font_size 8)))
 		(line (pt 136 96)(pt 120 96))
 	)
 	(port
 		(pt 136 112)
 		(output)
-		(text "/5" (rect 0 0 18 16)(font "Arial" (font_size 8)))
-		(text "/5" (rect 97 107 115 123)(font "Arial" (font_size 8)))
+		(text "B5" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B5" (rect 97 107 115 123)(font "Arial" (font_size 8)))
 		(line (pt 136 112)(pt 120 112))
 	)
 	(port
 		(pt 136 128)
 		(output)
-		(text "/6" (rect 0 0 18 16)(font "Arial" (font_size 8)))
-		(text "/6" (rect 97 123 115 139)(font "Arial" (font_size 8)))
+		(text "B6" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B6" (rect 97 123 115 139)(font "Arial" (font_size 8)))
 		(line (pt 136 128)(pt 120 128))
 	)
 	(port
 		(pt 136 144)
 		(output)
-		(text "/7" (rect 0 0 18 16)(font "Arial" (font_size 8)))
-		(text "/7" (rect 97 139 115 155)(font "Arial" (font_size 8)))
+		(text "B7" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B7" (rect 97 139 115 155)(font "Arial" (font_size 8)))
 		(line (pt 136 144)(pt 120 144))
 	)
 	(drawing

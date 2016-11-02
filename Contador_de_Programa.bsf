@@ -22,7 +22,7 @@ agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 168 112)
-	(text "Controlador_de_Programa" (rect 5 0 222 16)(font "Arial" (font_size 8)))
+	(text "Contador_de_Programa" (rect 5 0 193 16)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 78 41 92)(font "Arial" ))
 	(port
 		(pt 0 32)
