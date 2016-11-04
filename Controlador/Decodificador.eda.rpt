@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Decodificador
-Wed Nov 02 09:48:30 2016
+Fri Nov 04 17:26:45 2016
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Nov 02 09:48:30 2016 ;
+; EDA Netlist Writer Status ; Successful - Fri Nov 04 17:26:45 2016 ;
 ; Revision Name             ; Decodificador                         ;
 ; Top-level Entity Name     ; Decodificador                         ;
 ; Family                    ; Cyclone V                             ;
@@ -67,13 +67,13 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Simulation Generated Files                                               ;
-+--------------------------------------------------------------------------+
-; Generated Files                                                          ;
-+--------------------------------------------------------------------------+
-; Z:/PEM/Henrique_Martins_Miranda_uC_PEM/simulation/qsim//Decodificador.vo ;
-+--------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                           ;
++--------------------------------------------------------------------------------------+
+; Generated Files                                                                      ;
++--------------------------------------------------------------------------------------+
+; Z:/PEM/Henrique_Martins_Miranda_uC_PEM/Controlador/simulation/qsim//Decodificador.vo ;
++--------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -96,14 +96,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: devices manufactured by Altera and sold by Altera or its 
     Info: authorized distributors.  Please refer to the applicable 
     Info: agreement for further details.
-    Info: Processing started: Wed Nov 02 09:48:28 2016
-Info: Command: quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=Z:/PEM/Henrique_Martins_Miranda_uC_PEM/simulation/qsim/ Decodificador -c Decodificador
+    Info: Processing started: Fri Nov 04 17:26:43 2016
+Info: Command: quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=Z:/PEM/Henrique_Martins_Miranda_uC_PEM/Controlador/simulation/qsim/ Decodificador -c Decodificador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
-Info (204019): Generated file Decodificador.vo in folder "Z:/PEM/Henrique_Martins_Miranda_uC_PEM/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Decodificador.vo in folder "Z:/PEM/Henrique_Martins_Miranda_uC_PEM/Controlador/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 825 megabytes
-    Info: Processing ended: Wed Nov 02 09:48:30 2016
+    Info: Peak virtual memory: 828 megabytes
+    Info: Processing ended: Fri Nov 04 17:26:45 2016
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
