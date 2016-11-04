@@ -34,8 +34,8 @@ agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "CLKB" (rect 0 0 37 16)(font "Arial" (font_size 8)))
-		(text "CLKB" (rect 21 43 58 59)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 49 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port

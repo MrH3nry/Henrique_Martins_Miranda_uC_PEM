@@ -21,9 +21,9 @@ agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 200 176)
+	(rect 16 16 200 144)
 	(text "Unidade_de_Memoria" (rect 5 0 174 16)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 142 41 156)(font "Arial" ))
+	(text "inst" (rect 8 110 41 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -41,30 +41,16 @@ agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "CLK" (rect 0 0 28 16)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 59 49 75)(font "Arial" (font_size 8)))
+		(text "CE" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "CE" (rect 21 59 39 75)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "Wren" (rect 0 0 37 16)(font "Arial" (font_size 8)))
-		(text "Wren" (rect 21 75 58 91)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 75 49 91)(font "Arial" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
-	)
-	(port
-		(pt 0 96)
-		(input)
-		(text "CEB" (rect 0 0 28 16)(font "Arial" (font_size 8)))
-		(text "CEB" (rect 21 91 49 107)(font "Arial" (font_size 8)))
-		(line (pt 0 96)(pt 16 96))
-	)
-	(port
-		(pt 0 112)
-		(input)
-		(text "D[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "D[7..0]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
-		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
 		(pt 184 32)
@@ -74,6 +60,6 @@ agreement for further details.
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 168 144))
+		(rectangle (rect 16 16 168 112))
 	)
 )
