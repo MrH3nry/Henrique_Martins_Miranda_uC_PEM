@@ -22,25 +22,9 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 1064 56 1232 72)
+	(rect 1064 32 1232 48)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "CLK" (rect 5 0 29 14)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect 1064 72 1232 88)
-	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "CLRB" (rect 5 0 38 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -119,6 +103,22 @@ agreement for further details.
 	)
 	(rotate270)
 	(text "VCC" (rect -2 128 9 152)(font "Arial" (font_size 6))(vertical))
+)
+(pin
+	(input)
+	(rect 1064 56 1232 72)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "CLRB" (rect 5 0 39 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -1389,22 +1389,6 @@ agreement for further details.
 	(rotate270)
 )
 (connector
-	(pt 1232 80)
-	(pt 1376 80)
-)
-(connector
-	(pt 1376 80)
-	(pt 1376 88)
-)
-(connector
-	(pt 1392 88)
-	(pt 1392 64)
-)
-(connector
-	(pt 1232 64)
-	(pt 1392 64)
-)
-(connector
 	(pt 8 336)
 	(pt -8 336)
 )
@@ -2076,6 +2060,22 @@ agreement for further details.
 (connector
 	(pt 352 496)
 	(pt 352 512)
+)
+(connector
+	(pt 1376 88)
+	(pt 1376 64)
+)
+(connector
+	(pt 1392 88)
+	(pt 1392 40)
+)
+(connector
+	(pt 1392 40)
+	(pt 1232 40)
+)
+(connector
+	(pt 1232 64)
+	(pt 1376 64)
 )
 (junction (pt 1328 384))
 (junction (pt 1256 368))
