@@ -22,7 +22,7 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 456 256 624 272)
+	(rect 456 288 624 304)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "Q[7..0]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
@@ -102,7 +102,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 912 376 1088 392)
+	(rect 936 376 1112 392)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "B4" (rect 90 0 106 14)(font "Arial" ))
 	(pt 0 8)
@@ -118,7 +118,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 912 392 1088 408)
+	(rect 936 392 1112 408)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "B5" (rect 90 0 106 14)(font "Arial" ))
 	(pt 0 8)
@@ -134,7 +134,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 912 408 1088 424)
+	(rect 936 408 1112 424)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "B6" (rect 90 0 106 14)(font "Arial" ))
 	(pt 0 8)
@@ -150,7 +150,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 912 424 1088 440)
+	(rect 936 424 1112 440)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "B7" (rect 90 0 106 14)(font "Arial" ))
 	(pt 0 8)
@@ -166,7 +166,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 1072 152 1248 168)
+	(rect 936 288 1112 304)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "X[3..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
@@ -443,22 +443,6 @@ agreement for further details.
 	)
 )
 (connector
-	(pt 888 384)
-	(pt 912 384)
-)
-(connector
-	(pt 888 432)
-	(pt 912 432)
-)
-(connector
-	(pt 888 416)
-	(pt 912 416)
-)
-(connector
-	(pt 888 400)
-	(pt 912 400)
-)
-(connector
 	(text "Q[0]" (rect 730 96 763 110)(font "Arial" ))
 	(pt 768 112)
 	(pt 720 112)
@@ -477,12 +461,6 @@ agreement for further details.
 	(text "Q[3]" (rect 730 144 763 158)(font "Arial" ))
 	(pt 720 160)
 	(pt 768 160)
-)
-(connector
-	(text "Q[7..0]" (rect 624 248 681 262)(font "Arial" ))
-	(pt 624 264)
-	(pt 648 264)
-	(bus)
 )
 (connector
 	(text "Q[4]" (rect 682 320 715 334)(font "Arial" ))
@@ -621,9 +599,31 @@ agreement for further details.
 	(pt 936 208)
 )
 (connector
-	(pt 1072 160)
-	(pt 1048 160)
+	(text "Q[7..0]" (rect 624 280 681 294)(font "Arial" ))
+	(pt 624 296)
+	(pt 648 296)
 	(bus)
+)
+(connector
+	(pt 936 296)
+	(pt 912 296)
+	(bus)
+)
+(connector
+	(pt 888 384)
+	(pt 936 384)
+)
+(connector
+	(pt 888 400)
+	(pt 936 400)
+)
+(connector
+	(pt 888 416)
+	(pt 936 416)
+)
+(connector
+	(pt 888 432)
+	(pt 936 432)
 )
 (junction (pt 752 480))
 (junction (pt 760 416))

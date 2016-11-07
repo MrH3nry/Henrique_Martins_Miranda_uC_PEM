@@ -381,22 +381,6 @@ agreement for further details.
 	(pt 408 376)
 )
 (connector
-	(pt 464 288)
-	(pt 464 240)
-)
-(connector
-	(pt 480 240)
-	(pt 480 288)
-)
-(connector
-	(pt 496 288)
-	(pt 496 240)
-)
-(connector
-	(pt 512 288)
-	(pt 512 240)
-)
-(connector
 	(pt 376 232)
 	(pt 400 232)
 	(bus)

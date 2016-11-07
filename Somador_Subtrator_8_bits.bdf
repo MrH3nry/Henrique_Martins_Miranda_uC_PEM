@@ -39,9 +39,9 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 8 88 176 104)
+	(rect 16 208 184 224)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "X[7..0]" (rect 5 0 63 14)(font "Arial" ))
+	(text "X[7..0]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,9 +55,9 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 8 120 176 136)
+	(rect 16 240 184 256)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "Y[7..0]" (rect 5 0 63 14)(font "Arial" ))
+	(text "Y[7..0]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -88,7 +88,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 8 160 184 176)
+	(rect 16 280 192 296)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "S[7..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)

@@ -641,7 +641,7 @@ agreement for further details.
 	(flipy)
 )
 (symbol
-	(rect 192 360 240 392)
+	(rect 216 360 264 392)
 	(text "NOT" (rect 1 0 25 11)(font "Arial" (font_size 6)))
 	(text "inst12" (rect 3 21 52 35)(font "Arial" ))
 	(port
@@ -806,14 +806,6 @@ agreement for further details.
 	(pt 176 280)
 )
 (connector
-	(pt 168 376)
-	(pt 192 376)
-)
-(connector
-	(pt 168 376)
-	(pt 168 432)
-)
-(connector
 	(pt 320 280)
 	(pt 320 312)
 )
@@ -874,10 +866,6 @@ agreement for further details.
 	(pt 168 280)
 )
 (connector
-	(pt 168 280)
-	(pt 168 376)
-)
-(connector
 	(pt 1048 240)
 	(pt 1096 240)
 )
@@ -914,14 +902,6 @@ agreement for further details.
 	(pt 1032 280)
 )
 (connector
-	(pt 1056 280)
-	(pt 1056 376)
-)
-(connector
-	(pt 1056 376)
-	(pt 240 376)
-)
-(connector
 	(pt 1032 312)
 	(pt 1040 312)
 )
@@ -948,6 +928,26 @@ agreement for further details.
 (connector
 	(pt 832 240)
 	(pt 1048 240)
+)
+(connector
+	(pt 1056 280)
+	(pt 1056 376)
+)
+(connector
+	(pt 1056 376)
+	(pt 264 376)
+)
+(connector
+	(pt 168 280)
+	(pt 168 376)
+)
+(connector
+	(pt 168 376)
+	(pt 168 432)
+)
+(connector
+	(pt 168 376)
+	(pt 216 376)
 )
 (junction (pt 320 280))
 (junction (pt 408 240))

@@ -22,7 +22,7 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 40 696 208 712)
+	(rect 200 672 368 688)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "CLOCK" (rect 5 0 46 14)(font "Arial" ))
 	(pt 168 8)
@@ -38,7 +38,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 40 800 208 816)
+	(rect 200 712 368 728)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "RESET" (rect 5 0 46 14)(font "Arial" ))
 	(pt 168 8)
@@ -758,24 +758,8 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(text "W[7..0]" (rect 490 296 547 310)(font "Arial" ))
-	(pt 456 312)
-	(pt 552 312)
-	(bus)
-)
-(connector
 	(pt 848 336)
 	(pt 944 336)
-	(bus)
-)
-(connector
-	(pt 848 304)
-	(pt 848 336)
-	(bus)
-)
-(connector
-	(pt 848 336)
-	(pt 848 368)
 	(bus)
 )
 (connector
@@ -821,11 +805,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(text "CLR" (rect 322 792 346 806)(font "Arial" ))
-	(pt 208 808)
-	(pt 352 808)
-)
-(connector
 	(text "CLR" (rect 234 120 258 134)(font "Arial" ))
 	(pt 264 136)
 	(pt 224 136)
@@ -836,14 +815,40 @@ agreement for further details.
 	(pt 616 592)
 )
 (connector
-	(text "CLK" (rect 298 688 322 702)(font "Arial" ))
-	(pt 208 704)
-	(pt 320 704)
-)
-(connector
 	(text "CLK" (rect 234 104 258 118)(font "Arial" ))
 	(pt 264 120)
 	(pt 224 120)
+)
+(connector
+	(pt 848 312)
+	(pt 848 336)
+	(bus)
+)
+(connector
+	(pt 848 336)
+	(pt 848 368)
+	(bus)
+)
+(connector
+	(text "W[7..0]" (rect 490 296 547 310)(font "Arial" ))
+	(pt 456 312)
+	(pt 552 312)
+	(bus)
+)
+(connector
+	(pt 552 312)
+	(pt 848 312)
+	(bus)
+)
+(connector
+	(text "CLK" (rect 458 664 482 678)(font "Arial" ))
+	(pt 368 680)
+	(pt 480 680)
+)
+(connector
+	(text "CLR" (rect 450 704 474 718)(font "Arial" ))
+	(pt 368 720)
+	(pt 480 720)
 )
 (junction (pt 552 368))
 (junction (pt 552 144))

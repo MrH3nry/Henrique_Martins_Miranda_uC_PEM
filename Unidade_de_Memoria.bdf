@@ -22,7 +22,7 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -136 248 32 264)
+	(rect -128 248 40 264)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "CLK" (rect 5 0 29 14)(font "Arial" ))
 	(pt 168 8)
@@ -38,7 +38,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -136 112 32 128)
+	(rect -128 112 40 128)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "Q[3..0]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
@@ -54,7 +54,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -136 168 32 184)
+	(rect -128 168 40 184)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "LMB" (rect 5 0 29 14)(font "Arial" ))
 	(pt 168 8)
@@ -70,9 +70,9 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 488 176 656 192)
+	(rect 408 176 576 192)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "CE" (rect 5 0 22 14)(font "Arial" ))
+	(text "CE" (rect 5 0 21 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -86,7 +86,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 864 240 1040 256)
+	(rect 784 240 960 256)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "X[7..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
@@ -232,7 +232,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 760 232 808 264)
+	(rect 680 232 728 264)
 	(text "TRI" (rect 1 0 25 11)(font "Arial" (font_size 6)))
 	(text "inst1" (rect 3 21 44 35)(font "Arial" ))
 	(port
@@ -263,7 +263,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 488 216 704 344)
+	(rect 408 216 624 344)
 	(text "ROM" (rect 93 0 131 18)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 110 41 124)(font "Arial" ))
 	(port
@@ -377,61 +377,8 @@ agreement for further details.
 	(pt 160 160)
 )
 (connector
-	(pt 32 120)
-	(pt 64 120)
-	(bus)
-)
-(connector
 	(pt 152 208)
 	(pt 152 224)
-)
-(connector
-	(pt 32 176)
-	(pt 152 176)
-)
-(connector
-	(pt 152 176)
-	(pt 160 176)
-)
-(connector
-	(text "E[3..0]" (rect 424 232 481 246)(font "Arial" ))
-	(pt 424 248)
-	(pt 488 248)
-	(bus)
-)
-(connector
-	(pt 32 256)
-	(pt 120 256)
-)
-(connector
-	(pt 120 256)
-	(pt 160 256)
-)
-(connector
-	(pt 704 248)
-	(pt 760 248)
-	(bus)
-)
-(connector
-	(pt 808 248)
-	(pt 864 248)
-	(bus)
-)
-(connector
-	(pt 656 184)
-	(pt 784 184)
-)
-(connector
-	(pt 784 184)
-	(pt 784 232)
-)
-(connector
-	(pt 488 328)
-	(pt 120 328)
-)
-(connector
-	(pt 120 256)
-	(pt 120 328)
 )
 (connector
 	(pt 152 224)
@@ -440,6 +387,59 @@ agreement for further details.
 (connector
 	(pt 152 240)
 	(pt 152 288)
+)
+(connector
+	(text "E[3..0]" (rect 344 232 401 246)(font "Arial" ))
+	(pt 344 248)
+	(pt 408 248)
+	(bus)
+)
+(connector
+	(pt 624 248)
+	(pt 680 248)
+	(bus)
+)
+(connector
+	(pt 704 184)
+	(pt 704 232)
+)
+(connector
+	(pt 120 328)
+	(pt 408 328)
+)
+(connector
+	(pt 120 256)
+	(pt 120 328)
+)
+(connector
+	(pt 728 248)
+	(pt 784 248)
+	(bus)
+)
+(connector
+	(pt 576 184)
+	(pt 704 184)
+)
+(connector
+	(pt 40 120)
+	(pt 72 120)
+	(bus)
+)
+(connector
+	(pt 40 176)
+	(pt 152 176)
+)
+(connector
+	(pt 152 176)
+	(pt 160 176)
+)
+(connector
+	(pt 40 256)
+	(pt 120 256)
+)
+(connector
+	(pt 120 256)
+	(pt 160 256)
 )
 (junction (pt 152 240))
 (junction (pt 152 224))
